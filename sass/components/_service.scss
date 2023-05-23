@@ -1,0 +1,43 @@
+.service {
+  &__list {
+    display: flex;
+    gap: 30px;
+  }
+
+  &__item {
+    flex-basis: calc((100% - 90px) / 4);
+  }
+
+  &__box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 270px;
+    height: 120px;
+    background-color: $bg-gray;
+  }
+
+  &__icon {
+    width: 70px;
+    height: 70px;
+  }
+
+  &__title {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-weight: $bold-weight;
+    font-size: $main-size;
+    letter-spacing: $main-letter;
+    line-height: 1.14;
+    text-transform: uppercase;
+  }
+
+  &__text {
+    font-weight: $regular-weight;
+    font-size: $main-size;
+    letter-spacing: $main-letter;
+    line-height: 1.71;
+    color: $secondary-text-color;
+  }
+}

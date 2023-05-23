@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/main.min.css" />
+    <title>Portafolio</title>
+  </head>
+  <body>
+    <header class="page-header page-header--underline">
+      <div class="container header-container">
+        <nav class="menu">
+          <a class="logo menu__logo" href=""
+            >Web<span class="logo__label">Studio</span></a
+          >
+
+          <ul class="menu__list">
+            <li class="menu__item">
+              <a class="menu__link" href="./index.html">Estudio</a>
+            </li>
+
+            <li class="menu__item">
+              <a class="menu__link menu__link--fixed" href="./portfolio.html"
+                >Portafolio</a
+              >
+            </li>
+
+            <li class="menu__item">
+              <a class="menu__link" href="">Contacto</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="contact">
+          <li class="contact__item">
+            <a class="contact__link" href="mailto:info@devstudio.com">
+              <svg class="contact__icon">
+                <use href="./images/icons.svg#icon-email"></use>
+              </svg>
+              info@devstudio.com
+            </a>
+          </li>
+          <li class="contact__item">
+            <a class="contact__link" href="tel:+525555296000">
+              <svg class="contact__icon contact__icon--phone">
+                <use href="./images/icons.svg#icon-phone"></use>
+              </svg>
+              +52 55 5529 6000
+            </a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <section class="portfolio-page section">
+        <div class="container">
+          <h1 class="title-invisible">Portafolio</h1>
+          <ul class="filter">
+            <li class="filter__item">
+              <button class="btn filter__btn" type="button">Todo</button>
+            </li>
+            <li class="filter__item">
+              <button class="btn filter__btn" type="button">Sitios-web</button>
+            </li>
+            <li class="filter__item">
+              <button class="btn filter__btn" type="button">
+                Aplicaciones
+              </button>
+            </li>
+            <li class="filter__item">
+              <button class="btn filter__btn" type="button">Diseño</button>
+            </li>
+            <li class="filter__item">
+              <button class="btn filter__btn" type="button">Marketing</button>
+            </li>
+          </ul>
+          <ul class="project">
+            <li class="project__item">
+              <a class="project__link" href="">
+                <div class="project__overlay">
+                  <img
+                    src="./images/whitepc.jpg"
+                    alt="Laptop muestra página web"
+                    width="370"
+                    height="294"
+                  />
+                  <p class="project__description">
+                    Tecnoduck es una plataforma de distribución de coronavirus
+                    de última generación. Las compañías usan esta plataforma
+                    para el espionaje digital y los ataques a los servidores
+                    seguros de la competencia.
+                  </p>
+                </div>
+                <div class="project__foot">
+                  <h3 class="project__title">Tecnoduck</h3>
+                  <p class="project__text">Sitio-web</p>
+                </div>
+              </a>
+            </li>
+            <li class="project__item">
+              <a class="project__link" href="">
+                <div class="project__overlay">
+                  <img
+                    src="./images/basket.jpg"
+                    alt="Dos basquetbolistas disputando balón en el aire"
+                    width="370"
+                    height="294"
+                  />
+                  <p class="project__description">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Possimus porro inventore sunt qui velit? Reprehenderit ipsum
+                    quaerat ad cum ab repellat placeat ea iure, culpa eaque
+                    corporis sapiente voluptatem modi!
+                  </p>
+                </div>
+                <div class="project__foot">
+                  <h3 class="project__title">
+                    Nueva Orleans vs Estrella Dorada
+                  </h3>
+                  <p class="project__text">Diseño</p>
+                </div>
+              </a>
+            </li>
+            <li class="project__item">
+              <a class="project__link" href="">
+                <div class="project__overlay">
+                  <img
+                    src="./images/seafood.jpg"
+                    alt="Logotipo del restaurante"
+                    width="370"
+                    height="294"
+                  />
+                  <p class="project__description">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Possimus porro inventore sunt qui velit? Reprehenderit ipsum
+                    quaerat ad cum ab repellat placeat ea iure, culpa eaque
+                    corporis sapiente voluptatem modi!
+                  </p>
+                </div>
+                <div class="project__foot">
+                  <h3 class="project__title">Restaurante de Mariscos</h3>
+                  <p class="project__text">Aplicaciones</p>
+                </div>
+              </a>
+            </li>
+            <li class="project__item">
+              <a class="project__link" href="">
+                <div class="project__overlay">
+                  <img
+                    src="./images/earphones.jpg"
+                    alt="Audífonos inalambricos de color negro"
+                    width="370"
+                    height="294"
+                  />
+                  <p class="project__description">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Possimus porro inventore sunt qui velit? Reprehenderit ipsum
+                    quaerat ad cum ab repellat placeat ea iure, culpa eaque
+                    corporis sapiente voluptatem modi!
+                  </p>
+                </div>
+                <div class="project__foot">
+                  <h3 class="project__title">Proyecto Prime</h3>
+                  <p class="project__text">Marketing</p>
+                </div>
+              </a>
+            </li>
+            <li class="project__item">
+              <a class="project__link" href="">
+                <div class="project__overlay">
+                  <img
+                    src="./images/boxes.jpg"
+                    alt="Dos cajas, una caja de color blanco y otra de color naranja"
+                    width="370"
+                    height="294"
+                  />
+                  <p class="project__description">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Possimus porro inventore sunt qui velit? Reprehenderit ipsum
+                    quaerat ad cum ab repellat placeat ea iure, culpa eaque
+                    corporis sapiente voluptatem modi!
+                  </p>
+                </div>
+                <div class="project__foot">
+                  <h3 class="project__title">Proyecto Cajas</h3>
+                  <p class="project__text">Aplicaciones</p>
+                </div>
+              </a>
+            </li>
+            <li class="project__item">
+              <a class="project__link" href="">
+                <div class="project__overlay">
+                  <img
+                    src="./images/blackpc.jpg"
+                    alt="Computador apple mostrando página web"
+                    width="370"
+                    height="294"
+                  />
+                  <p class="project__description">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Possimus porro inventore sunt qui velit? Reprehenderit ipsum
+                    quaerat ad cum ab repellat placeat ea iure, culpa eaque
+                    corporis sapiente voluptatem modi!
+                  </p>
+                </div>
+                <div class="project__foot">
+                  <h3 class="project__title">
+                    La inspiración no tiene límites
+                  </h3>
+                  <p class="project__text">Sitio-web</p>
+                </div>
+              </a>
+            </li>
+            <li class="project__item">
+              <a class="project__link" href="">
+                <div class="project__overlay">
+                  <img
+                    src="./images/book.jpg"
+                    alt="Libro abierto mostrando imagenes y título principal"
+                    width="370"
+                    height="294"
+                  />
+                  <p class="project__description">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Possimus porro inventore sunt qui velit? Reprehenderit ipsum
+                    quaerat ad cum ab repellat placeat ea iure, culpa eaque
+                    corporis sapiente voluptatem modi!
+                  </p>
+                </div>
+                <div class="project__foot">
+                  <h3 class="project__title">Edición Limitada</h3>
+                  <p class="project__text">Diseño</p>
+                </div>
+              </a>
+            </li>
+            <li class="project__item">
+              <a class="project__link" href="">
+                <div class="project__overlay">
+                  <img
+                    src="./images/tag.jpg"
+                    alt="Etiqueta de color blanco con título escrito Lab el tag"
+                    width="370"
+                    height="294"
+                  />
+                  <p class="project__description">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Possimus porro inventore sunt qui velit? Reprehenderit ipsum
+                    quaerat ad cum ab repellat placeat ea iure, culpa eaque
+                    corporis sapiente voluptatem modi!
+                  </p>
+                </div>
+                <div class="project__foot">
+                  <h3 class="project__title">Proyecto LAB</h3>
+                  <p class="project__text">Marketing</p>
+                </div>
+              </a>
+            </li>
+            <li class="project__item">
+              <a class="project__link" href="">
+                <div class="project__overlay">
+                  <img
+                    src="./images/pc.jpg"
+                    alt="Persona escribiendo en una página web con su portatil"
+                    width="370"
+                    height="294"
+                  />
+                  <p class="project__description">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Possimus porro inventore sunt qui velit? Reprehenderit ipsum
+                    quaerat ad cum ab repellat placeat ea iure, culpa eaque
+                    corporis sapiente voluptatem modi!
+                  </p>
+                </div>
+                <div class="project__foot">
+                  <h3 class="project__title">Negocio en Crecimiento</h3>
+                  <p class="project__text">Aplicaciones</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer class="page-footer">
+      <div class="container footer-container">
+        <div class="direction">
+          <a class="logo" href=""
+            >Web<span class="logo__label logo__label--white">Studio</span></a
+          >
+          <address class="address">
+            <ul class="address__list">
+              <li class="address__item">
+                <a
+                  class="address__link address__link--white"
+                  href=""
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <p>Calz. Ticomán 500, Ciudad de</p>
+                  <p>México, CDMX, México</p>
+                </a>
+              </li>
+              <li class="address__item">
+                <a class="address__link" href="mailto:info@example.com">
+                  info@example.com
+                </a>
+              </li>
+              <li class="address__item">
+                <a class="address__link" href="tel:+525555296000"
+                  >+52 55 5529 6000
+                </a>
+              </li>
+            </ul>
+          </address>
+        </div>
+        <div class="find-us">
+          <p class="find-us__text">Encuentrenos en</p>
+          <!-- social es un bloque reutilizable -->
+          <ul class="social">
+            <li class="social__item">
+              <a class="social__link social__link--bg" href="">
+                <svg class="social__icon social__icon--white">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social__item">
+              <a class="social__link social__link--bg" href="">
+                <svg class="social__icon social__icon--white">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social__item">
+              <a class="social__link social__link--bg" href="">
+                <svg class="social__icon social__icon--white">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social__item">
+              <a class="social__link social__link--bg" href="">
+                <svg class="social__icon social__icon--white">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="mail">
+          <p class="mail__text">Suscríbase al boletín informativo</p>
+          <form class="mail__form" action="">
+            <input
+              class="mail__input"
+              type="email"
+              name="mail"
+              placeholder="Correo electrónico"
+            />
+            <button class="btn mail__btn" type="submit">
+              Suscríbase
+              <svg class="mail__icon">
+                <use href="./images/icons.svg#icon-send"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

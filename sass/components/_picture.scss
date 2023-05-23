@@ -1,0 +1,29 @@
+.picture {
+  &__title {
+    @extend %section-title;
+  }
+
+  &__list {
+    display: flex;
+    position: relative;
+    gap: 30px;
+  }
+
+  &__item {
+    flex-basis: calc((100% - 60px) / 3);
+  }
+  &__text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    width: 370px;
+    height: 70px;
+
+    text-transform: uppercase;
+    line-height: 1.14;
+    color: $main-white-color;
+    background-color: rgba(47, 48, 58, 0.8);
+  }
+}
